@@ -9,6 +9,15 @@ https://codepen.io/bowersrd/pen/dwXLba
 make navbar with css grid 
 https://coder-coder.com/responsive-navigation-bar-flexbox-vs-css-grid/
 
+style for the hero section background 
+https://codepen.io/tahoerock/pen/zqEyGZ
+
+https://codepen.io/NeatDesigns/pen/BXLaBX
+
+call to action section sample 
+https://codepen.io/jasondavis/pen/lDAwk
+https://codepen.io/teodragovic/pen/ivlfh
+
 ## header 
 
 - logo on the left 
