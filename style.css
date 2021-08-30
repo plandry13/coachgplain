@@ -1,15 +1,18 @@
-
-*{
- box-sizing: border-box;
- padding: 0;
-  margin: 0;
+html {
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  background-color: #1b1b1b;
+  color:white;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 
@@ -26,6 +29,12 @@ border: 1px solid rgba(0, 0, 0, 0.2);
 position: sticky;
 top:0;
 position: -webkit-sticky; /* Safari */
+padding: 10px;
+
+    @media (min-width: 600px){
+        padding: 20px;
+    }
+
 }
 
 .inner-nav{
