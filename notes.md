@@ -6,6 +6,9 @@ https://www.highvibenurse.com/?fbclid=IwAR0J2MSbM0UXF5Via3eobob_WTyjmf3Ab1pdz2hl
 navbar example grid 
 https://codepen.io/bowersrd/pen/dwXLba
 
+make navbar with css grid 
+https://coder-coder.com/responsive-navigation-bar-flexbox-vs-css-grid/
+
 ## header 
 
 - logo on the left 

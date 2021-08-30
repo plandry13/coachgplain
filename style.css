@@ -22,6 +22,8 @@ Navagation section
 
 
 nav{
+  display: flex;
+  justify-content: space-between;
 width:100%;
 height:auto;
 background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
@@ -40,8 +42,7 @@ padding: 10px;
 .inner-nav{
   margin: 0;
 	font-size: 1.45em;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  
   align-items: center;
   height: 50px;
   overflow: hidden;
@@ -52,13 +53,13 @@ ul {
   padding:0;
   list-style-type:none;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  justify-self: end;
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
 }
 ul li {
   text-align: center;
-  margin: 5px;
+  margin-right: 20px;
 }
 
 .nav-links,
@@ -71,4 +72,19 @@ ul li {
   margin-top: 10px;
   margin-left: 20px;
   justify-self: start;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+a::before {
+  content: "";
+  position: absolute;            
+  height: 3px;
+  right: 0px;
+  bottom: -3px;
+  left: 0px;
+  background-color: $linkPink;
 }
